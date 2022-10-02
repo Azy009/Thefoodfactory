@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #ddd; */
+    list-style: none;
+    text-decoration: none;
+}
+/* html{
+scroll-behavior: smooth;
+} */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    width: 100vw;
+    overflow-x: hidden;
+    
+}
+.header{
+    width: 100%;
+    height: 46px;
+    position: relative;
+    background-color:teal;
+    color: black;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    background-color: teal;
+    text-decoration: underline;
+    display: flex;
+    gap: 380px;
+    margin-left: 490px;
+
+}
+.logo h1{
+    background-color: teal;
+    font-size: 34px;
+}
+.logo i{
+    background-color: teal;
+}
+.footer{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #006778;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    /* position: absolute;
+    bottom: 0px;
+    right: 0px; */
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-left: auto;
+    margin-right: 30px;
+}
+.icon i{
+    font-size: 32px;
+}
+.hea{
+    margin-left: 40px;
+}
+.contact_me{
+    width: 650px;
+    height: 797px;
+    margin-top: 40px;
+    margin-left: 380px;
+    background-color: #006778;
+}
+.formm{
+    width: 650px;
+    height: 797px;
+}
+.formm form{
+    width: 650px;
+    height: 797px;
+    
+}
+.formm form > div{
+    width: 100%;
+    height: 45px;
+    padding: 38px 0px;
+    margin-left: 120px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+.formm form input{
+width: 400px;
+height: 36px;
+font-size: 19px;
+}
+.formm form label{
+    margin-left: 150px;
+    font-size: 23px;
+}
+#create{
+    width: 100px;
+    height: 43px;
+    margin-left: 250px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+#selectro{
+    width: 100px;
+    height: 36px;
+    margin-left: 130px;
+    margin-bottom: 3px;
+    font-size: 19px;
+}
+.contactme{
+    margin-left: 120px;
+    margin-bottom: -10px;
+}
+.contactme h1{
+margin-left: 15px;
+margin-top: -10px;
+}

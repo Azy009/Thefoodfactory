@@ -1,0 +1,82 @@
+.login{
+   width: 45vw;
+   height: 600px;
+   background-color: aquamarine;
+   margin-top: 50px;
+   margin-left: 350px;
+}
+.login .heading{
+    /* border-radius: px; */
+    height: 55px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: teal;
+}
+.backimage{
+    width: 100%;
+    height: 545px;
+}
+.backimage img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+form{
+    width: 100%;
+    height: 545px;
+    margin-top: -545px;
+    z-index: 455;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 14px;
+    padding-top: 50px;
+    
+}
+
+form > div{
+    z-index: 4565;
+    
+}
+form div input{
+    width: 400px;
+    height: 26px;
+    z-index: 445656;
+}
+#login{
+    z-index: 43545;
+    width: 100px;
+    height: 27px;
+    font-size: 23px;
+    font-weight: bold;
+    border: 1px solid teal;
+    border-radius: 8px;
+}
+label{
+    font-size: 32px;
+    margin-left: 110px;
+}
+.vip{
+    font-size: 38px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 24px;
+}
+#OOP{
+    position: absolute;
+    top: 510px;
+    left: 570px;
+    width: 200px;
+    height: 33px;
+    font-size: 19px;
+    text-decoration: none;
+}
+#OOP a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}

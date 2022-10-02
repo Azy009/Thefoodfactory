@@ -1,0 +1,538 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: #ddd; */
+    list-style: none;
+    text-decoration: none;
+}
+/* html{
+scroll-behavior: smooth;
+} */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.header{
+    width: 100%;
+    height: 46px;
+    position: relative;
+    background-color:teal;
+    color: black;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    background-color: teal;
+    text-decoration: underline;
+    display: flex;
+    gap: 310px;
+    margin-left: 490px;
+
+}
+.logo h1{
+    background-color: teal;
+    font-size: 34px;
+}
+.logo i{
+    background-color: teal;
+}
+.menu{
+    width: 100%;
+    height: 43px;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: red; */
+    display: flex;
+}
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: red; */
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    margin-left: 90px;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul li{
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.7s;
+    /* background-color: red; */
+}
+.menu ul li a{
+    /* background-color: red; */
+    font-size: 31px;
+    font-weight: bold;
+    color: black;
+}
+.menu ul li:hover{
+    border-bottom: 3px solid teal;
+    border-radius: 10px;
+}
+/* .lader{
+    width: 99vw;
+    height: 540px;
+}
+.lader img{
+    width: 100%;
+    height: 100%;
+} */
+.item{
+    width: 99vw;
+    height: 460px;
+    margin-left: 6px;
+}
+.item img{
+    width: 98vw;
+    height: 100%;
+    opacity: 0.7;
+}
+.owl-stage-outer{
+    width: 99vw;
+    overflow-x: hidden;
+    height: 460px;
+}
+.content1{
+    display: flex;
+    width: 100%;
+    
+}
+#but{
+    background-color: white;
+    font-size: 24px;
+    padding: 4px;
+    cursor: pointer;
+    color: teal;
+    border-color: teal;
+    
+}
+.butm{
+    background-color: white;
+
+}
+.sidebar{
+    height: 100%;
+    width: 260px;
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    transform: translateX(-350px);
+    z-index: 2443;
+    transition: all 0.6s;
+    overflow-x: hidden;
+    
+
+}
+.che{
+    display: none;
+}
+.labelo{
+    width: 25px;
+    height: 25px;
+    background-color: teal;
+    position: absolute;
+    top: 13px;
+    left: 14px;
+    z-index: 12;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.labelo > div{
+    width: 100%;
+    height: 100%;
+    background-color: teal;
+}
+.spinner{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+.two,.three{
+    margin-top: 4px;
+}
+#check:checked ~.sidebar{
+    transform: translateX(0px);
+}
+.sidebar ul{
+    margin: 0px;
+    padding: 0px;
+    background-color: teal;
+    width: 260px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 7px;
+}
+.sidebar ul li{
+    background-color: teal;
+    border-bottom: 3px solid black;
+}
+.sidebar ul li a{
+    color: black;
+    background-color: teal;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.hopp{
+    display: flex;
+    flex-direction: column;
+}
+.section{
+    display: flex;
+    gap: 60px;
+    margin-left: 30px;
+    margin-top: 50px;
+    height: auto;
+}
+.section2{
+    width: 750px;
+    height: 558px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+}
+.contain1{
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+    padding: 5px;
+    background-color: #ddd;
+
+}
+.contain div *{
+    background-color: white;
+}
+.img{
+    width: 100%;
+    height: 250px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.info {
+    display: flex;
+    gap: 11px;
+    margin-left: 4px;
+    background-color: white;
+}
+.info *{
+    background-color: white;
+}
+.title *{
+    background-color: white;
+}
+.desc *{
+    background-color: white;
+    font-size: 24px;
+}
+.erw{
+    background-color: white;
+}
+.submit1{
+    display: none;
+}
+.section3{
+    /* background-color: white; */
+    padding: 10px;
+    width: 500px;
+    height: 60px;
+    margin-top: -20px;
+}
+.from{
+    margin-top: 83px;
+}
+.from input{
+    width: 430px;
+    height: 40px;
+    border-radius: 11px;
+    background-color: white;
+}
+.from form label{
+    margin-top: 50px;
+}
+.from label i{
+    font-size: 26px;
+    margin-top: 20px;
+}
+.contain1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.post{
+    background-color: white;
+    font-size: 32px;
+    
+}
+.post h1{
+    border-left: 3PX solid black;
+    padding: 4px;
+}
+.dis{
+width: 600px;
+height: 700px;
+display: flex;
+flex-direction: column;
+margin-left: -70px;
+gap: 40px;
+align-items: center;
+font-weight: bold;
+/* justify-content: center; */
+margin-top: 12px;
+}
+.aboutname,.aboutCATEGORY,.aboutOWNER,.aboutORDER,.aboutNUMBER,.aboutADDRESS{
+    font-size: 28px;
+}
+.heading{
+    text-decoration: underline;
+}
+.ggo{
+    font-weight: bold;
+    font-size: 45px;
+    position: absolute;
+    top: 150px;
+    left: 110px;
+    z-index: 444;
+    line-height: 90px;
+    
+}
+.ggo pre{
+z-index: 33333;
+color: black;
+font-size: 62px;
+position: relative;
+}
+.ggo pre::after{
+    content: "";
+    margin-left: -100px;
+    animation: simple 9s infinite ;
+}
+@keyframes simple{
+    0%{
+        /* content: "MADE BY AJAY"; */
+        content: " HELLO GUYSTHIS IS MY PORTFOLIOI ";
+        margin-left: -100px;
+    }
+    25%{
+        content: "THIS IS FOOD FACTORY SITE" ;
+        margin-left: -40px;
+    }
+    50%{
+        content: "THIS IS THE BEST SITE" ;
+        margin-left: 10px;
+    }
+    75%{
+        content:" WE HAVE MANY TYPES OF FOOD";
+        margin-left: -110px;
+    }
+    90%{
+        content: "I HOPE YOU LIKE THIS SITE";
+         margin-left: -30px;
+    }
+}
+.ggooo{
+    font-weight: bold;
+    font-size: 45px;
+    position: absolute;
+    top: 240px;
+    left: 110px;
+    z-index: 444;
+    line-height: 90px;
+    
+}
+.ggooo pre{
+z-index: 33333;
+color: black;
+font-size: 62px;
+position: relative;
+}
+.ggooo pre::after{
+    content: "";
+    margin-left: -100px;
+    animation: simpleo 9s infinite ;
+}
+@keyframes simpleo{
+    0%{
+        /* content: "MADE BY AJAY"; */
+        content: " MAIN DISHES MENU ";
+        margin-left: 100px;
+    }
+    25%{
+        content: "WE HAVE INDIAN" ;
+        margin-left: 120px;
+    }
+    50%{
+        content: "WE HAVE MAXSICAN" ;
+        margin-left: 100px;
+    }
+    75%{
+        content:" WE HAVE SEAFOOD";
+        margin-left: 120px;
+    }
+    90%{
+        content: "WE HAVE STREET";
+         margin-left: 100px;
+    }
+}
+
+.ggoo{
+    font-weight: bold;
+    font-size: 45px;
+    position: absolute;
+    top: 60px;
+    left: 110px;
+    z-index: 444;
+    line-height: 90px;
+    
+}
+.ggoo pre{
+z-index: 33333;
+color: black;
+font-size: 62px;
+position: relative;
+}
+.ggoo pre::after{
+    content: "";
+    margin-left: -100px;
+    animation: simplee 9s infinite ;
+}
+@keyframes simplee{
+    0%{
+        /* content: "MADE BY AJAY"; */
+        content: " HELLO USERS";
+        margin-left: 160px;
+    }
+    25%{
+        content: "YOU CAN CREATE YOUR " ;
+        margin-left: -20px;
+    }
+    50%{
+        content: "OWN PROFILE AND UPLODE YOUR" ;
+        margin-left: -50px;
+    }
+    75%{
+        content:" OWN DISHES IN POST AND SHOW ";
+        margin-left: -110px;
+    }
+    90%{
+        content: "OTHER USERES SO CREATE ACCOUNT KNOW";
+         margin-left: -170px;
+    }
+}
+
+.area{
+    width: 100%;
+    height: 530px;
+}
+.contact_me{
+    width: 100%;
+    height: 529px;
+
+}
+ .formm{
+    width: 100%;
+    height: 528px;
+}
+.formm form{
+    width: 43vw;
+    height: 510px;
+    margin-top: 200px;
+    margin-left: 440px;
+}
+.contact-me{
+    margin-left: 20px;
+    font-size: 26px;
+}
+.formm form div{
+    padding: 16px;
+}
+.formm form div input{
+    width: 400px;
+    height: 35px;
+}
+.wood{
+    margin-left: 150px;
+    font-size: 24px;
+}
+#create{
+    margin-left: 150px;
+    padding: 6px 8px;
+    font-size: 23px;
+    height: 40px;
+}
+.footer{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #006778;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-left: auto;
+    margin-right: 30px;
+}
+.icon i{
+    font-size: 32px;
+}
+.hea{
+    margin-left: 40px;
+}
+.list{
+    width: 700px;
+    height: 50px;
+}
+.list ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.list ul li{
+    border: 1px solid teal;
+    padding: 1px 4px;
+}
+.list ul li a{
+    font-size: 15px;
+    color: black;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 324;
+}
+.select{
+    background-color: teal;
+    color: black;
+}
+#search{
+    font-size: 28px;
+}
+#logout{
+    margin-right: 18px;
+}
